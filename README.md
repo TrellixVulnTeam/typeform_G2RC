@@ -1,0 +1,2 @@
+## Dit is een verzameling van Typeform Pages van Keukenstudio Dordrecht
+Dit wordt gebruikt, vanwege dat er te veel javascript wordt gebruikt op de originele site. Daarvoor maken we gebruik van een subdomein: afspraak.
