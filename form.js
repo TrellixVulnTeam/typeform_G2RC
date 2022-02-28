@@ -1298,7 +1298,7 @@ window.tf = function () {
                     value: !0
                 }), t.includeCss = void 0, t.includeCss = function (e) {
                     var t = function (e) {
-                        return "/stylesheet.css" + e
+                        return "https://embed.typeform.com/next/css/" + e
                     }(e);
                     if (!document.querySelector('link[href="' + t + '"]')) {
                         var n = document.createElement("link");
