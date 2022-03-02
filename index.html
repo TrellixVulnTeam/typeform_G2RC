@@ -15,6 +15,32 @@
         content="Maak hier uw afspraak bij Keukenstudio Dordrecht. We zijn bereikbaar op de woonboulevard in Dordrecht voor keukens en woonoplossingen. ">
     <meta property="og:image" content="https://keukenstudiodordrecht.nl/data/pam/public/logo/keukenstudio_logo.png">
     <meta property="og:url" content="https://keukenstudiodordrecht.nl/maak-een-afspraak">
+    <script>
+window.onload = function() {
+   let frame = document.getElementById("frame");
+   let doc = frame.contentDocument;
+   doc.body.innerHTML = doc.body.innerHTML + '<style>
+        .iosmky {
+            position: relative;
+            top: 0px;
+            left: 0px;
+            width: 100%;
+            z-index: 30;
+            pointer-events: none;
+        }
+
+        .ePXIqg {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+
+        .StickyHeaderContainer__Wrapper-sc-1tjdqrs-0.iosmky {
+            position: relative;
+        }</style>';
+    </script>
 </head>
 
 <body>
@@ -44,7 +70,7 @@
             height: 150px;
             margin: 25px;
             background-color: #fff;
-            position: fixed;
+            position: absolute;
             z-index: 1;
         }
 
