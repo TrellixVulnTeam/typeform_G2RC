@@ -1,0 +1,26 @@
+{
+  "name": "typeform",
+  "version": "1.0.0",
+  "description": "Dit wordt gebruikt, vanwege dat er te veel javascript wordt gebruikt op de originele site. Daarvoor maken we gebruik van een subdomein: afspraak.",
+  "main": "form.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/keukenstudiodordrecht/typeform.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/keukenstudiodordrecht/typeform/issues"
+  },
+  "homepage": "https://github.com/keukenstudiodordrecht/typeform#readme",
+  "devDependencies": {
+    "postcss": "^8.4.7",
+    "postcss-cli": "^9.1.0",
+    "postcss-import": "^14.0.2",
+    "webpack": "^5.69.1"
+  }
+}
